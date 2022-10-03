@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="village" >
+        <item>Village1</item>
+        <item>Village2</item>
+        <item>Village3</item>
+    </string-array>
+    <string-array name="ward" >
+        <item>Biashara</item>
+        <item>Bibirioni</item>
+        <item>Chania</item>
+        <item>Cianda</item>
+        <item>Gatongora</item>
+        <item>Gatuanyaga</item>
+        <item>Gitaru</item>
+        <item>Githiga</item>
+        <item>Githobokoni</item>
+        <item>Githunguri</item>
+        <item>Gitothua</item>
+        <item>Gituamba</item>
+        <item>Hospita</item>
+        <item>Ikinu</item>
+        <item>Juja</item>
+        <item>Kabete</item>
+        <item>Kahawa Wendani</item>
+        <item>Kahawa/Sukari</item>
+        <item>Kalimoni</item>
+        <item>Kamburu</item>
+        <item>Kamenu</item>
+        <item>Karai</item>
+        <item>Karuri</item>
+        <item>Kiamwangi</item>
+        <item>Kiganjo</item>
+        <item>Kihara</item>
+        <item>Kijabe</item>
+        <item>Kikuyu</item>
+        <item>Kinale</item>
+        <item>Kinoo</item>
+        <item>Kiuu</item>
+        <item>Komothai</item>
+        <item>Lari/Kirenga</item>
+        <item>Limuru Central</item>
+        <item>Limuru East</item>
+        <item>Mang’u</item>
+        <item>Muchatha</item>
+        <item>Muguga</item>
+        <item>Murera</item>
+        <item>Mwihoko</item>
+        <item>Mwiki</item>
+        <item>Nachu</item>
+        <item>Ndarugo</item>
+        <item>Ndeiya</item>
+        <item>Ndenderu</item>
+        <item>Ndumberi</item>
+        <item>Ngecha Tigoni</item>
+        <item>Ngenda</item>
+        <item>Ngewa</item>
+        <item>Nyanduma</item>
+        <item>Nyathuna</item>
+        <item>Riabai</item>
+        <item>Sigona</item>
+        <item>Theta</item>
+        <item>Ting’ang’a</item>
+        <item>Township</item>
+        <item>Uthiru</item>
+    </string-array>
+    <string-array name="subCounty" >
+        <item>Gatundu North</item>
+        <item>Gatundu South</item>
+        <item>Githunguri</item>
+        <item>Juja</item>
+        <item>Kabete</item>
+        <item>Kiambaa</item>
+        <item>Kiambu</item>
+        <item>Kikuyu</item>
+        <item>Lari</item>
+        <item>Limuru</item>
+        <item>Thika Town</item>
+        <item>Ruiru</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="ages" >
+        <item>18-35 Years</item>
+        <item>35-65 Years</item>
+        <item>66 and above</item>
+    </string-array>
+
+    <string-array name="county">
+        <item>Kiambu</item>
+    </string-array>
+
+    <string-array name="farming" >
+        <item>Crop Farming</item>
+        <item>Livestock Farming</item>
+        <item>Mixed Farming</item>
+    </string-array>
+
+    <string-array name="grouptype">
+        <item>CIG</item>
+        <item>SACCO</item>
+        <item>P.O</item>
+        <item>Cohort</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="productionunit">
+        <item>KGs</item>
+        <item>Lts</item>
+        <item>Number</item>
+        <item>Live Birds</item>
+    </string-array>
+
+    <string-array name="farmingPeriod">
+        <item>Annually</item>
+        <item>Bi-annually</item>
+        <item>Quarterly</item>
+        <item>Monthly</item>
+        <item>Weekly</item>
+        <item>Daily</item>
+    </string-array>
+
+
+</resources>
