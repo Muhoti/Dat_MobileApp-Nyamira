@@ -12,7 +12,7 @@
         android:id="@+id/appbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/dullblue"
+        android:background="@color/bluegreen"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme" >
 
@@ -24,7 +24,7 @@
             android:paddingStart="24dp"
             android:paddingEnd="24dp"
             android:orientation="horizontal"
-            android:background="@color/dullblue"
+            android:background="@color/bluegreen"
             >
 
             <TextView
@@ -73,7 +73,7 @@
                     android:layout_marginEnd="24dp"
                     android:layout_marginBottom="20dp"
                     android:text="Add Farmer Details"
-                    android:textColor="@color/dullblue"
+                    android:textColor="@color/dark_green"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -113,11 +113,11 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="24dp"
                     android:layout_marginBottom="32dp"
-                    android:background="@drawable/input_blue_border"
+                    android:background="@drawable/input_bluegreen_border"
                     android:hint="John Doe"
                     android:padding="10dp"
-                    android:textColorHint="@color/translucent_dull_blue"
-                    android:textColor="@color/dullblue"
+                    android:textColorHint="@color/bluegreen"
+                    android:textColor="@color/dark_green"
                     android:textSize="12sp" />
 
 
@@ -138,12 +138,12 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="24dp"
                     android:layout_marginBottom="32dp"
-                    android:background="@drawable/input_blue_border"
+                    android:background="@drawable/input_bluegreen_border"
                     android:hint="00000000"
                     android:inputType="number"
                     android:padding="10dp"
-                    android:textColorHint="@color/translucent_dull_blue"
-                    android:textColor="@color/dullblue"
+                    android:textColorHint="@color/bluegreen"
+                    android:textColor="@color/dark_green"
                     android:textSize="12sp" />
                 <!--    Text input end-->
 
@@ -165,11 +165,11 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="24dp"
                     android:layout_marginBottom="32dp"
-                    android:background="@drawable/input_blue_border"
+                    android:background="@drawable/input_bluegreen_border"
                     android:hint="John Doe"
                     android:padding="10dp"
-                    android:textColorHint="@color/translucent_dull_blue"
-                    android:textColor="@color/dullblue"
+                    android:textColorHint="@color/bluegreen"
+                    android:textColor="@color/dark_green"
                     android:textSize="12sp" />
                 <!--    Text input end-->
 
@@ -191,12 +191,12 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="24dp"
                     android:layout_marginBottom="32dp"
-                    android:background="@drawable/input_blue_border"
+                    android:background="@drawable/input_bluegreen_border"
                     android:hint="0700 000 000"
                     android:inputType="number"
                     android:padding="10dp"
-                    android:textColorHint="@color/translucent_dull_blue"
-                    android:textColor="@color/dullblue"
+                    android:textColorHint="@color/bluegreen"
+                    android:textColor="@color/dark_green"
                     android:textSize="12sp" />
                 <!--    Text input end-->
 
@@ -218,7 +218,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="24dp"
                     android:layout_marginBottom="32dp"
-                    android:background="@drawable/input_blue_border">
+                    android:background="@drawable/input_bluegreen_border">
 
                     <androidx.appcompat.widget.AppCompatSpinner
                         android:id="@+id/gender"
@@ -226,8 +226,8 @@
                         android:layout_height="wrap_content"
                         android:entries="@array/gender"
                         android:padding="2dp"
-                        android:textColor="@color/dullblue"
-                        android:backgroundTint="@color/dullblue"
+                        android:textColor="@color/dark_green"
+                        android:backgroundTint="@color/bluegreen"
                         android:spinnerMode="dropdown" />
                 </LinearLayout>
                 <!--    Text input end-->
@@ -250,7 +250,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="24dp"
                     android:layout_marginBottom="32dp"
-                    android:background="@drawable/input_blue_border">
+                    android:background="@drawable/input_bluegreen_border">
 
                     <androidx.appcompat.widget.AppCompatSpinner
                         android:id="@+id/age"
@@ -258,8 +258,8 @@
                         android:layout_height="wrap_content"
                         android:entries="@array/ages"
                         android:padding="2dp"
-                        android:textColor="@color/dullblue"
-                        android:backgroundTint="@color/dullblue"
+                        android:textColor="@color/dark_green"
+                        android:backgroundTint="@color/bluegreen"
                         android:spinnerMode="dropdown" />
                 </LinearLayout>
                 <!--    Text input end-->
@@ -281,7 +281,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="24dp"
                     android:layout_marginBottom="32dp"
-                    android:background="@drawable/input_blue_border">
+                    android:background="@drawable/input_bluegreen_border">
 
                     <androidx.appcompat.widget.AppCompatSpinner
                         android:id="@+id/farming"
@@ -289,8 +289,8 @@
                         android:layout_height="wrap_content"
                         android:entries="@array/farming"
                         android:padding="2dp"
-                        android:textColor="@color/dullblue"
-                        android:backgroundTint="@color/dullblue"
+                        android:textColor="@color/dark_green"
+                        android:backgroundTint="@color/bluegreen"
                         android:spinnerMode="dropdown" />
                 </LinearLayout>
                 <!--    Text input end-->
@@ -307,7 +307,7 @@
                     android:paddingRight="30dp"
                     android:text="Submit"
                     android:textAllCaps="false"
-                    android:textColor="@color/white"
+                    android:textColor="@color/yellow"
                     android:textSize="14sp" />
 
             </LinearLayout>

@@ -25,7 +25,7 @@
         android:gravity="center"
         android:layout_gravity="center"
         android:text="@string/update_existing_data"
-        android:textColor="@color/dullblue"
+        android:textColor="@color/dark_green"
         android:textSize="30sp"
         android:textStyle="bold" />
 
@@ -36,7 +36,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="100dp"
         android:text="@string/update_basic_farmer_information_farmer_s_address_main_value_chains_and_approximate_produce_n_n_location_information_cannot_be_updated"
-        android:textColor="@color/dullblue"
+        android:textColor="@color/dark_green"
         android:textSize="15sp"
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
@@ -51,7 +51,7 @@
         android:background="@drawable/dark_blue_button"
         android:text="@string/update"
         android:textSize="14sp"
-        android:textColor="@color/white"
+        android:textColor="@color/yellow"
         android:textAllCaps="false"
         android:layout_marginTop="250dp"
         android:layout_gravity="center" />

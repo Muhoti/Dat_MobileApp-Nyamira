@@ -60,7 +60,7 @@
         android:gravity="right"
         android:layout_gravity="center_vertical"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/dullred"
+        android:textColor="@color/yellow"
         android:textStyle="normal" />
     <TextView
         android:id="@+id/updated"

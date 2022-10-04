@@ -16,7 +16,7 @@
     <com.google.android.material.navigation.NavigationView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/kiambu_bg"
+        android:background="@drawable/landing_bg2"
         android:id="@+id/nav_view"
         app:menu="@menu/nav_menu"
         app:itemTextColor="@color/white"

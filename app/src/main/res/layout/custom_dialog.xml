@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/parent"
-    android:background="@drawable/login_bg2"
+    android:background="@drawable/dialog_bg"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
@@ -23,7 +23,7 @@
         android:text="Reset Password"
         android:gravity="center"
         android:layout_marginBottom="10dp"
-        android:textColor="@color/dullblue"
+        android:textColor="@color/dark_green"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         />
 
@@ -39,7 +39,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_marginTop="12dp"
-            android:textColor="@color/dullblue"
+            android:textColor="@color/dark_green"
             android:text="Please enter your email address."
             android:layout_height="wrap_content"/>
 
@@ -48,14 +48,14 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:background="@drawable/input_blue_border"
+        android:background="@drawable/input_bluegreen_border"
         android:orientation="horizontal">
 
         <ImageView
             android:layout_width="44dp"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:background="@color/dullblue"
+            android:background="@color/bluegreen"
             android:src="@drawable/ic_account_circle" />
 
         <EditText
@@ -68,9 +68,8 @@
             android:hint="Enter Email"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:inputType="textEmailAddress"
-            android:textColor="@color/blue"
-            android:textColorHighlight="@color/red"
-            android:textColorHint="@color/dullblue"
+            android:textColor="@color/dark_green"
+            android:textColorHint="@color/bluegreen"
             android:textStyle="normal" />
     </LinearLayout>
     <androidx.appcompat.widget.AppCompatButton
@@ -84,7 +83,7 @@
         android:paddingRight="30dp"
         android:text="Submit"
         android:textAllCaps="false"
-        android:textColor="@color/white"
+        android:textColor="@color/yellow"
         android:textSize="14sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

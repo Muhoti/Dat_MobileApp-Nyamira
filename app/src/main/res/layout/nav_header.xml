@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
-        android:background="@drawable/translucent_blue_card"
+        android:background="@drawable/darkgreen_card"
         >
 
         <ImageView
@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_marginBottom="8dp"
-            android:src="@drawable/kiambu_logo"
+            android:src="@drawable/nyamira_logo"
             app:layout_constraintBottom_toTopOf="@id/cont_credits"
             tools:layout_editor_absoluteX="0dp" />
 
@@ -29,8 +29,8 @@
             android:layout_height="wrap_content"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toTopOf="@id/app_name"
-            android:text="Kiambu County"
-            android:textColor="@color/white"
+            android:text="Nyamira County"
+            android:textColor="@color/yellow"
             android:textSize="30sp"
             android:gravity="center"
             android:layout_marginTop="200dp"/>

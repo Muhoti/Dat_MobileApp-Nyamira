@@ -17,7 +17,7 @@
             android:id="@+id/appbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/dullblue"
+            android:background="@color/bluegreen"
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme" >
 
@@ -29,7 +29,7 @@
                 android:paddingStart="24dp"
                 android:paddingEnd="24dp"
                 android:orientation="horizontal"
-                android:background="@color/dullblue"
+                android:background="@color/bluegreen"
                 >
 
                 <TextView
@@ -59,7 +59,7 @@
             android:layout_marginStart="24dp"
             android:layout_marginEnd="24dp"
             android:text="Display Farmers Associations"
-            android:textColor="@color/dullblue"
+            android:textColor="@color/dark_green"
             android:textSize="20sp"
             android:textStyle="bold"
             android:layout_marginBottom="20dp"
@@ -85,7 +85,7 @@
             android:text="Add Farmer Group"
             android:textSize="14sp"
             android:textAllCaps="false"
-            android:textColor="@color/dullred"
+            android:textColor="@color/yellow"
             android:layout_gravity="center"
             android:layout_marginBottom="24dp"
             />
@@ -100,7 +100,7 @@
             android:text="Proceed"
             android:textSize="14sp"
             android:textAllCaps="false"
-            android:textColor="@color/dullred"
+            android:textColor="@color/yellow"
             android:layout_gravity="center"
             android:layout_marginBottom="24dp"
             />

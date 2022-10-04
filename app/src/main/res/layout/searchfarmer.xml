@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login_bg2"
+    android:background="@drawable/dialog_bg"
     xmlns:app="http://schemas.android.com/apk/res-auto" >
 
     <LinearLayout
@@ -24,7 +24,7 @@
             android:gravity="center"
             android:text="@string/search_for_a_farmer"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="@color/dullblue"
+            android:textColor="@color/dark_green"
             android:textStyle="bold"/>
 
         <TextView
@@ -50,7 +50,7 @@
                 android:gravity="center"
                 android:layout_gravity="center"
                 android:text="@string/enter_farmer_s_national_id"
-                android:textColor="@color/dullblue"
+                android:textColor="@color/dark_green"
                 android:textSize="14sp" />
 
             <LinearLayout
@@ -58,7 +58,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 android:layout_marginTop="8dp"
-                android:background="@drawable/input_blue_border"
+                android:background="@drawable/input_bluegreen_border"
                 android:orientation="horizontal">
 
                 <EditText
@@ -71,9 +71,8 @@
                     android:hint="000000"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                     android:inputType="number"
-                    android:textColor="@color/blue"
-                    android:textColorHighlight="@color/dullred"
-                    android:textColorHint="@color/dullblue"
+                    android:textColor="@color/dark_green"
+                    android:textColorHint="@color/bluegreen"
                     android:textStyle="normal" />
 
             </LinearLayout>
@@ -92,7 +91,7 @@
             android:textStyle="normal"
             android:textSize="14sp"
             android:textAllCaps="false"
-            android:textColor="@color/white"
+            android:textColor="@color/yellow"
             android:layout_marginBottom="24dp" />
     </LinearLayout>
     <ProgressBar

@@ -17,14 +17,14 @@
             android:id="@+id/appbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/dullblue"
+            android:background="@color/bluegreen"
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="64dp"
-                android:background="@color/dullblue"
+                android:background="@color/bluegreen"
                 android:gravity="center_vertical"
                 android:orientation="horizontal"
                 android:paddingStart="24dp"
@@ -62,7 +62,7 @@
             android:layout_marginEnd="24dp"
             android:layout_marginBottom="20dp"
             android:text="Farmer's Value Chains"
-            android:textColor="@color/dullblue"
+            android:textColor="@color/dark_green"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -90,7 +90,7 @@
             android:paddingRight="30dp"
             android:text="Add Value Chain"
             android:textAllCaps="false"
-            android:textColor="@color/white"
+            android:textColor="@color/yellow"
             android:textSize="14sp" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -103,7 +103,7 @@
             android:text="Finish"
             android:textSize="14sp"
             android:textAllCaps="false"
-            android:textColor="@color/white"
+            android:textColor="@color/yellow"
             android:layout_gravity="center"
             android:layout_marginBottom="24dp"
             />

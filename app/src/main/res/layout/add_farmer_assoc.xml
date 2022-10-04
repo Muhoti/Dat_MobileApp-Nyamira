@@ -25,7 +25,7 @@
             android:gravity="center"
             android:text="@string/farmer_s_group"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="@color/dullblue"
+            android:textColor="@color/dark_green"
             android:textStyle="bold"/>
 
         <TextView
@@ -35,7 +35,7 @@
             android:height="24dp"
             android:gravity="center"
             android:text=""
-            android:textColor="@color/orange"
+            android:textColor="@color/red"
             android:textSize="14sp" />
 
         <LinearLayout
@@ -51,7 +51,7 @@
                 android:gravity="center"
                 android:layout_gravity="center"
                 android:text="@string/enter_farmer_s_group_name"
-                android:textColor="@color/dullblue"
+                android:textColor="@color/dark_green"
                 android:textSize="14sp" />
 
             <LinearLayout
@@ -59,17 +59,17 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="24dp"
                 android:layout_marginTop="8dp"
-                android:background="@drawable/input_blue_border"
+                android:background="@drawable/input_bluegreen_border"
                 android:orientation="horizontal">
 
                 <EditText
                     android:id="@+id/groupname"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/input_blue_border"
+                    android:background="@drawable/input_bluegreen_border"
                     android:inputType="text"
                     android:padding="10dp"
-                    android:textColor="@color/dullblue"
+                    android:textColor="@color/dark_green"
                     android:textSize="12sp"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                     android:textStyle="normal" />
@@ -84,7 +84,7 @@
                 android:gravity="center"
                 android:layout_gravity="center"
                 android:text="@string/select_farmer_s_group_type"
-                android:textColor="@color/dullblue"
+                android:textColor="@color/dark_green"
                 android:textSize="14sp" />
 
             <LinearLayout
@@ -92,7 +92,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 android:layout_marginTop="8dp"
-                android:background="@drawable/input_blue_border"
+                android:background="@drawable/input_bluegreen_border"
                 android:orientation="horizontal">
 
                 <androidx.appcompat.widget.AppCompatSpinner
@@ -102,8 +102,8 @@
                     android:gravity="center"
                     android:entries="@array/grouptype"
                     android:spinnerMode="dropdown"
-                    android:textColor="@color/dullblue"
-                    android:backgroundTint="@color/dullblue"
+                    android:textColor="@color/dark_green"
+                    android:backgroundTint="@color/bluegreen"
                     android:padding="2dp"
                     />
 
@@ -124,7 +124,7 @@
             android:textStyle="normal"
             android:textSize="14sp"
             android:textAllCaps="false"
-            android:textColor="@color/white"
+            android:textColor="@color/yellow"
             android:layout_marginBottom="24dp" />
     </LinearLayout>
     <ProgressBar
