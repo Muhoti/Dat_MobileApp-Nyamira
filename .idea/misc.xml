@@ -41,8 +41,10 @@
         <entry key="..\:/Android Projects/DAT-MobileApp-NyamiraCounty/app/src/main/res/drawable-v24/gps.xml" value="0.204" />
         <entry key="..\:/Android Projects/DAT-MobileApp-NyamiraCounty/app/src/main/res/drawable-v24/orange_button.xml" value="0.204" />
         <entry key="..\:/Android Projects/DAT-MobileApp-NyamiraCounty/app/src/main/res/drawable-v24/refresh.xml" value="0.204" />
+        <entry key="..\:/Android Projects/DAT-MobileApp-NyamiraCounty/app/src/main/res/drawable-v24/translucent_darkgreen_card.xml" value="0.133" />
         <entry key="..\:/Android Projects/DAT-MobileApp-NyamiraCounty/app/src/main/res/drawable-v24/transluscent_darkgreen_card.xml" value="0.204" />
         <entry key="..\:/Android Projects/DAT-MobileApp-NyamiraCounty/app/src/main/res/drawable/dark_blue_button.xml" value="0.113" />
+        <entry key="..\:/Android Projects/DAT-MobileApp-NyamiraCounty/app/src/main/res/drawable/darkgreen_card.xml" value="0.133" />
         <entry key="..\:/Android Projects/DAT-MobileApp-NyamiraCounty/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.204" />
         <entry key="..\:/Android Projects/DAT-MobileApp-NyamiraCounty/app/src/main/res/drawable/input_blue_border.xml" value="0.204" />
         <entry key="..\:/Android Projects/DAT-MobileApp-NyamiraCounty/app/src/main/res/drawable/tab_background.xml" value="0.204" />
@@ -52,7 +54,7 @@
         <entry key="..\:/Android Projects/DAT-MobileApp-NyamiraCounty/app/src/main/res/layout-v21/farmer_groups.xml" value="0.1675929884566054" />
         <entry key="..\:/Android Projects/DAT-MobileApp-NyamiraCounty/app/src/main/res/layout/activity_addvaluechain.xml" value="0.1675929884566054" />
         <entry key="..\:/Android Projects/DAT-MobileApp-NyamiraCounty/app/src/main/res/layout/activity_associations.xml" value="0.1675929884566054" />
-        <entry key="..\:/Android Projects/DAT-MobileApp-NyamiraCounty/app/src/main/res/layout/activity_details.xml" value="0.33" />
+        <entry key="..\:/Android Projects/DAT-MobileApp-NyamiraCounty/app/src/main/res/layout/activity_details.xml" value="0.22" />
         <entry key="..\:/Android Projects/DAT-MobileApp-NyamiraCounty/app/src/main/res/layout/activity_home.xml" value="0.1675929884566054" />
         <entry key="..\:/Android Projects/DAT-MobileApp-NyamiraCounty/app/src/main/res/layout/activity_landing.xml" value="0.22" />
         <entry key="..\:/Android Projects/DAT-MobileApp-NyamiraCounty/app/src/main/res/layout/activity_location.xml" value="0.1675929884566054" />

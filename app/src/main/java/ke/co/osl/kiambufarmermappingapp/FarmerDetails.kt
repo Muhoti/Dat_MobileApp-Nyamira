@@ -2,11 +2,13 @@ package ke.co.osl.kiambufarmermappingapp
 
 import android.app.Dialog
 import android.content.Intent
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.text.TextUtils
 import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
+import com.auth0.android.jwt.JWT
 import ke.co.osl.kiambufarmermappingapp.api.ApiInterface
 import ke.co.osl.kiambufarmermappingapp.models.FarmersDetailsBody
 import ke.co.osl.kiambufarmermappingapp.models.FarmersDetailsGetBody
@@ -17,10 +19,16 @@ import retrofit2.Response
 
 class FarmerDetails: AppCompatActivity() {
     lateinit var dialog: Dialog
+    lateinit var user:TextView
+    lateinit var preferences: SharedPreferences
+    lateinit var editor: SharedPreferences.Editor
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_details)
+
+        preferences = this.getSharedPreferences("ut_manager", MODE_PRIVATE)
+        editor = preferences.edit()
 
         val back = findViewById<ImageView>(R.id.back)
 
@@ -28,6 +36,11 @@ class FarmerDetails: AppCompatActivity() {
         dialog.setCancelable(true)
         dialog.setCanceledOnTouchOutside(false)
         dialog.setContentView(R.layout.searchfarmer)
+
+        user = findViewById(R.id.user)
+
+        val jwt = JWT(preferences.getString("token","")!!)
+        user.text = jwt.getClaim("Name").asString()
 
         back.setOnClickListener {
             startActivity(Intent(this,MainActivity::class.java))
@@ -144,6 +157,7 @@ class FarmerDetails: AppCompatActivity() {
             progress.visibility = View.VISIBLE
 
             val farmerDetailsBody = FarmersDetailsBody(
+                user.text.toString(),
                 nationalId.text.toString(),
                 name.text.toString().capitalize(),
                 phone.text.toString(),
@@ -190,6 +204,7 @@ class FarmerDetails: AppCompatActivity() {
         next.text = "Update"
 
         //Receive data
+        user.text.toString()
         nationalId.setText(body.NationalID)
         name.setText(body.Name)
         phone.setText(body.Phone)
@@ -212,6 +227,7 @@ class FarmerDetails: AppCompatActivity() {
 
             progress.visibility = View.VISIBLE
             val farmerDetailsBody = FarmersDetailsBody(
+                user.text.toString(),
                 nationalId.text.toString(),
                 name.text.toString().capitalize(),
                 phone.text.toString(),
