@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ke.co.osl.kiambufarmermappingapp">
+    package="ke.co.osl.nyamirafarmermappingapp">
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -16,25 +16,25 @@
         android:theme="@style/Theme.FarmerMappingApp">
 
         <activity
-            android:name="ke.co.osl.kiambufarmermappingapp.MainActivity"
+            android:name="ke.co.osl.nyamirafarmermappingapp.MainActivity"
             android:exported="false"
             android:label="@string/title_activity_main"
             android:theme="@style/Theme.FarmerMappingApp.NoActionBar" />
 
-        <activity android:name="ke.co.osl.kiambufarmermappingapp.LandingPage">
+        <activity android:name="ke.co.osl.nyamirafarmermappingapp.LandingPage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="ke.co.osl.kiambufarmermappingapp.AddValueChain" />
-        <activity android:name="ke.co.osl.kiambufarmermappingapp.FarmerAddress" />
-        <activity android:name="ke.co.osl.kiambufarmermappingapp.FarmerAssociations" />
-        <activity android:name="ke.co.osl.kiambufarmermappingapp.FarmerDetails" />
-        <activity android:name="ke.co.osl.kiambufarmermappingapp.FarmerResources" />
-        <activity android:name="ke.co.osl.kiambufarmermappingapp.LoginPage" />
-        <activity android:name="ke.co.osl.kiambufarmermappingapp.UpdateProduce" />
-        <activity android:name="ke.co.osl.kiambufarmermappingapp.ValueChains" />
+        <activity android:name="ke.co.osl.nyamirafarmermappingapp.AddValueChain" />
+        <activity android:name="ke.co.osl.nyamirafarmermappingapp.FarmerAddress" />
+        <activity android:name="ke.co.osl.nyamirafarmermappingapp.FarmerAssociations" />
+        <activity android:name="ke.co.osl.nyamirafarmermappingapp.FarmerDetails" />
+        <activity android:name="ke.co.osl.nyamirafarmermappingapp.FarmerResources" />
+        <activity android:name="ke.co.osl.nyamirafarmermappingapp.LoginPage" />
+        <activity android:name="ke.co.osl.nyamirafarmermappingapp.UpdateProduce" />
+        <activity android:name="ke.co.osl.nyamirafarmermappingapp.ValueChains" />
     </application>
 
 </manifest>
